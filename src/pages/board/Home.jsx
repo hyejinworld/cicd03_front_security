@@ -10,7 +10,7 @@ import { LoginContext } from "../../App";
 
 const Home =()=>{
   const serverIp = import.meta.env.VITE_API_SERVER_IP;
- //console.log("serverIp = "+serverIp)
+  console.log("serverIp = "+serverIp)
 
   const { handleLoginChange} = useContext(LoginContext);
 
